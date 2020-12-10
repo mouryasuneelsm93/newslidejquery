@@ -234,7 +234,7 @@ footer
 .button-input {
   position: absolute;
   margin-left: 95%;
-  margin-top:-25%;
+  margin-top:-20%;
   background-color: transparent;
   border: none;
   font-size: 40px;
@@ -243,7 +243,7 @@ footer
 .button1-input {
   position: absolute;
   margin-left: 01%;
-  margin-top: -25%;
+  margin-top: -20%;
   background-color: transparent;
   border: none;
   font-size: 40px;
@@ -257,7 +257,7 @@ footer
 {
   position: absolute;
   margin-left:50%;
-  margin-top:35%;
+  margin-top:30%;
 }
 @media screen and (max-width: 992px) {
   .slider
