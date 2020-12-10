@@ -3,18 +3,17 @@ var c = 1;
 var t = 1;
 var a = b.children().length;
 console.log(a);
+ $(".gen").prop("checked", true)
+ $(".gen1").prop("checked", false)
+ $(".gen2").prop("checked", false)
 setInterval(function () {
     b.animate({
         marginLeft: '-=1370px'
     }, 2000, function () {
         c++;
         console.log(c)
-        if (c == 1) {
-            $(".gen").prop("checked", true)
-            $(".gen1").prop("checked", false)
-            $(".gen2").prop("checked", false)
-        }
-        else if (c == 2) {
+        
+         if (c == 2) {
             $('.button1-input').on('click', function () {
                 b.animate({
                     marginLeft: '0px'
